@@ -159,6 +159,11 @@ body {
   gap: 16px;
   margin-bottom: 15px;
 }
+@media screen and (max-width: 768px) {
+  .header__info-top {
+    flex-wrap: wrap;
+  }
+}
 .header__info-logo {
   font-family: "Montserrat", sans-serif;
   font-size: 24px;
@@ -179,6 +184,11 @@ body {
   gap: 28px;
   margin-bottom: 20px;
 }
+@media screen and (max-width: 768px) {
+  .header__stats {
+    gap: 20px;
+  }
+}
 .header__stats-item {
   font-weight: 400;
   font-size: 14px;
@@ -188,6 +198,11 @@ body {
   align-items: center;
   gap: 11px;
 }
+@media screen and (max-width: 768px) {
+  .header__dates {
+    flex-direction: column;
+  }
+}
 .header__dates-text {
   font-weight: 400;
 }
@@ -195,6 +210,11 @@ body {
   display: flex;
   align-items: center;
   gap: 22px;
+}
+@media screen and (max-width: 768px) {
+  .header__dates-inputs {
+    flex-direction: column;
+  }
 }
 .header__dates-input {
   width: 162px;
